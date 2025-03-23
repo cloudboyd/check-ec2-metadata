@@ -74,9 +74,6 @@ See below for how to use, and all available options:
 - Below shows that if no key is provided, it will show all metadata information:
 <img width="1286" alt="Screenshot 2025-03-24 at 12 44 52 AM" src="https://github.com/user-attachments/assets/7048d28b-fa08-43f2-ab5c-a90f226d4f6e" />
 
-
-
-
-
-
+- Below shows that metadata can be fetched via IPv6 endpoint:
+<img width="488" alt="Screenshot 2025-03-24 at 2 26 51 AM" src="https://github.com/user-attachments/assets/0386fb89-7450-428d-8c11-b086bd25588d" />
 
