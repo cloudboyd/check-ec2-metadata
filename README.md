@@ -31,11 +31,17 @@ See below for how to use, and all available options:
 > usage: check-ec2-metadata.py [-h] [-6] [-k KEY] [-s] [-v] [-m]
 > 
 > optional arguments:
->  -h, --help            : show this help message and exit
->  -6, --ipv6            : Use IPv6 metadata endpoint.
->  -k KEY, --key KEY     : Specific metadata key or path to fetch. If empty, lists all keys at the root path.
+> 
+> -h, --help            : show this help message and exit
+> 
+> -6, --ipv6            : Use IPv6 metadata endpoint.
+> 
+> -k KEY, --key KEY     : Specific metadata key or path to fetch. If empty, lists all keys at the root path.
+> 
 >  -s, --simple          : Show only the value of the specified key in simple JSON format.
+> 
 >  -v, --check-imds-version : Check IMDS version support (v1, v2, or both). Must be used with -k
+> 
 >  -m, --check-metadata-access : Check if metadata access is enabled.
 
 
