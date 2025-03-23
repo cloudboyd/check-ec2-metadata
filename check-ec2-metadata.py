@@ -175,7 +175,7 @@ def main():
     parser = argparse.ArgumentParser(description="Fetch EC2 metadata.")
     parser.add_argument("-6", "--ipv6", action="store_true", help="Use IPv6 metadata endpoint.")
     parser.add_argument("-k", "--key", type=str, default="", help="Specific metadata key or path to fetch. If empty, lists all keys at the root path.")
-    parser.add_argument("-s", "--simple", action="store_true", help="Show only the value of the specified key in simple JSON format.")
+    parser.add_argument("-s", "--simple", action="store_true", help="Show only the value of the specified key in simple JSON format. Must be used with -k")
     parser.add_argument("-v", "--check-imds-version", action="store_true", help="Check IMDS version support (v1, v2, or both).")
     parser.add_argument("-m", "--check-metadata-access", action="store_true", help="Check if metadata access is enabled.")
     args = parser.parse_args()
